@@ -1,0 +1,135 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	header
+		.header-left-img
+			max-width: 200px
+
+			&:before
+				padding: 70px
+
+		.header-right-img
+			max-width: 250px
+
+			&:before
+				padding: 60px
+
+	.about
+		.left-column
+			.article
+				&:before
+					right: -67px
+
+		.right-column
+			.article
+				&:before
+					left: -93px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	header
+		.header-left-img
+			max-width: 150px
+
+			&:before
+				padding: 50px
+
+		.header-right-img
+			max-width: 180px
+
+			&:before
+				padding: 45px
+
+	.beliefs
+		&_item
+			width: 100%
+			padding-bottom: 50px
+
+			p
+				max-width: 800px
+				margin: 0 auto
+
+	.contacts
+		&_icons
+			margin: 0
+			padding: 0 20px
+			&_item
+				width: 100%
+				padding-bottom: 30px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	#mmenu-icon
+		display: block
+
+	header
+		.nav
+			display: none
+
+		.header-left-img
+			display: none
+
+	.about
+		.left-column
+			.article
+				&:before
+					right: -68px
+
+		.right-column
+			.article
+				&:before
+					left: -92px
+
+		.article
+			h4
+				font-size: 35px
+			p
+				font-size: 14px
+
+	.team
+		&_item
+			width: 100%
+			padding-bottom: 50px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	header
+		.header-right-img
+			display: none
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
